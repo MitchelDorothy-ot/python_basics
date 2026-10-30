@@ -50,5 +50,5 @@ c1.print_details()
 # branch -- copy --master main
 
 # TODO fix output
-
+# we are learning inheritance pytyhon
 
