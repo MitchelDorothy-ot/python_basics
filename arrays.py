@@ -51,3 +51,11 @@ print(weekdays[0])
 person = {"name": "Jason", "age":22, "weight":52, height:1.88}
 print(person["name"])
 print(person["age"])
+
+people = [
+    {"name": "Aria", "age":29},
+    {"name": "Jaco", "age":28},
+    {"name": "Hellen", "age":23}
+]
+
+print(people[0]["age"])

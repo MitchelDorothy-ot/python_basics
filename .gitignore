@@ -1,6 +1,9 @@
 .venv/
 .env/
 .idea
+*.mp3
+*.txt
+
 
 #.gitignore
 
