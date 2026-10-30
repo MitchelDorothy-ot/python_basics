@@ -2,6 +2,7 @@ import yt_dlp
 
 ydl_opts = {
     'format': 'bestaudio/best',
+    'ffmpeg_location': r'C:\ffmpeg\bin',
     'postprocessors': [
         {
 
