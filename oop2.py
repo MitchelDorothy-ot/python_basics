@@ -1,6 +1,6 @@
 #oop2
 class Circle:
-    def __init__(self, r): #setup
+    def __init__(self, r:float|int): #setup
         self.radius = r
 
     def area(self):
@@ -18,7 +18,12 @@ c1 = Circle(10)
 c2 = Circle(28)
 c3 = Circle(40)
 
+
 print(c1.area())
 c1.print_details()
+
+my_circles = [c1,c2,c3]
+c1.print_details()
+
 
 
