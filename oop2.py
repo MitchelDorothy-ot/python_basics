@@ -21,9 +21,6 @@ c3 = Circle(40)
 print(c1.area())
 c1.print_details()
 
-# TODO fix output
-
-
 #oop2
 class Circle:
     def __init__(self, r): #setup
@@ -37,8 +34,8 @@ class Circle:
 
     def print_details(self):
         print("Radius is",self.radius)
-        print("Area is",self.area)
-        print("Perimeter is",self.perimeter)
+        print("Area is",self.area())
+        print("Perimeter is",self.perimeter())
 
 c1 = Circle(10)
 c2 = Circle(28)
@@ -48,7 +45,7 @@ print(c1.area())
 c1.print_details()
 
 # branch -- copy --master main
+# feature --
 
-# TODO fix output
-# we are learning inheritance pytyhon
+# we are learning inheritance python
 
