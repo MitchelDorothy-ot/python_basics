@@ -27,6 +27,11 @@ def fancy_function(name,*nums, **kwargs):
     print(nums)
     print(kwargs)
 
+# def my_functions (a:int,b:float|int):
+
+
+
+
 
 # anonymous functions = lamda
 # def square(num):
