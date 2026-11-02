@@ -26,8 +26,10 @@ def fancy_function(name,*nums, **kwargs):
     print(name)
     print(nums)
     print(kwargs)
+#model packages
+def my_functions (a: int,b: float):
+    return a/b
 
-# def my_functions (a:int,b:float|int):
 
 
 
